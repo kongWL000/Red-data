@@ -3,6 +3,7 @@ import requests
 import os
 
 # --- Step 0: Set up file path (not used now, but retained in case you re-enable later) ---
+#testing
 script_dir = os.path.dirname(os.path.abspath(__file__))
 last_id_file = os.path.join(script_dir, "last_id.txt")
 
